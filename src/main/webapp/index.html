@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html  ng-app="myApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Price Tracker</title>
+<script type="text/javascript" src="lib/angular.min.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
+<script type="text/javascript" src="scripts/TrackController.js"></script>
+<script type="text/javascript" src="scripts/TrackFactoryService.js"></script>
+</head>
+<body>
+	<div>
+		<div ng-include="'partials/menu.html'"></div> 
+	</div>
+	<ng-view></ng-view>
+</body>
+</html>
